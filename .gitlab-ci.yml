@@ -1,0 +1,9 @@
+stages:
+  - good
+
+approve:
+  stage: good
+  image: $CI_REGISTRY/bitonic/phptest:latest
+  script:
+    - echo 1
+
